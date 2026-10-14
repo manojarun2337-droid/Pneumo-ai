@@ -1,0 +1,14 @@
+# PNEUMO.AI — dependencies
+# Tested with Python 3.10 / 3.11 on Windows (CPU-only, no CUDA required)
+
+streamlit>=1.32,<1.50
+tensorflow-cpu>=2.15,<2.17   # use "tensorflow" instead if tensorflow-cpu is unavailable on your platform
+torch>=2.1,<2.4              # install the CPU wheel — see README "Windows installation notes"
+torchvision>=0.16,<0.19
+torchxrayvision>=1.2
+opencv-python-headless>=4.8
+numpy>=1.24,<2.0
+pandas>=2.0
+Pillow>=10.0
+plotly>=5.18
+scipy>=1.11
